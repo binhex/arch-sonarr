@@ -24,3 +24,10 @@ Please replace all user variables in the above command defined by <> with the co
 ```
 http://<host ip>:8989
 ```
+
+or if you have enabled SSL
+
+```
+https://<host ip>:9897
+```
+

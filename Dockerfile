@@ -35,6 +35,9 @@ VOLUME /media
 # expose port for http
 EXPOSE 8989
 
+# expose port for https
+EXPOSE 9897
+
 # run supervisor
 ################
 
