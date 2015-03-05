@@ -14,7 +14,7 @@ docker pull binhex/arch-sonarr
 **Run container**
 
 ```
-docker run -d -p 8989:8989 --name=<container name> -v <path for data files>:/data -v <path for config files>:/config -v /etc/localtime:/etc/localtime:ro binhex/arch-sonarr
+docker run -d -p 8989:8989 -p 9897:9897 --name=<container name> -v <path for data files>:/data -v <path for config files>:/config -v /etc/localtime:/etc/localtime:ro binhex/arch-sonarr
 ```
 
 Please replace all user variables in the above command defined by <> with the correct values.
