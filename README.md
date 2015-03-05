@@ -24,5 +24,3 @@ Please replace all user variables in the above command defined by <> with the co
 ```
 http://<host ip>:8989
 ```
-
-Default username/password for the webui is "admin/admin"
