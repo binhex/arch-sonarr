@@ -5,19 +5,16 @@ MAINTAINER binhex
 ##################
 
 # add supervisor conf file for app
-ADD sonarr.conf /etc/supervisor/conf.d/sonarr.conf
+ADD *.conf /etc/supervisor/conf.d/
 
-# add install bash script
-ADD install.sh /root/install.sh
-
-# add packer bash script
-ADD packer.sh /root/packer.sh
+# add install and packer bash script
+ADD *.sh /root/
 
 # install app
 #############
 
 # make executable and run bash scripts to install app
-RUN chmod +x /root/install.sh /root/packer.sh && \
+RUN chmod +x /root/*.sh && \
 	/bin/bash /root/install.sh
 
 # docker settings
