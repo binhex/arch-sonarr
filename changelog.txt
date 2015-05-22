@@ -1,1 +1,1 @@
-[info]  Sonarr updated to 
+[info] 20150522 Sonarr updated to version 
