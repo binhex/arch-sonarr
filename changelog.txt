@@ -1,1 +1,1 @@
-[info] date +%Y%m%d%H%M%S arch-sonarr updated to 
+[info] 20150522162417 arch-sonarr updated to 
