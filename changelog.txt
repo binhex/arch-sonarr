@@ -1,1 +1,1 @@
-[info] 20150522 Sonarr updated to ver 2.0.0.3004-1
+[info] Fri May 22 17:59:39 BST 2015 Sonarr updated to ver 2.0.0.3004-1
