@@ -1,1 +1,1 @@
-[info] 20150522162417 arch-sonarr updated to 
+[info]  Sonarr updated to 
