@@ -13,10 +13,6 @@ pacman -S --needed $pacman_packages --noconfirm
 # call aur packer script
 source /root/packer.sh
 
-# set permissions
-chown -R nobody:users /usr/lib/sonarr /usr/bin/sonarr
-chmod -R 775  /usr/lib/sonarr /usr/bin/sonarr
-
 # cleanup
 yes|pacman -Scc
 rm -rf /usr/share/locale/*

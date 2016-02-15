@@ -5,10 +5,10 @@ MAINTAINER binhex
 ##################
 
 # add supervisor conf file for app
-ADD *.conf /etc/supervisor/conf.d/
+ADD setup/*.conf /etc/supervisor/conf.d/
 
 # add install and packer bash script
-ADD *.sh /root/
+ADD setup/*.sh /root/
 
 # install app
 #############
@@ -35,8 +35,8 @@ EXPOSE 8989
 # expose port for https
 EXPOSE 9897
 
-# run supervisor
-################
+# set permissions
+#################
 
-# run supervisor
-CMD ["supervisord", "-c", "/etc/supervisor.conf", "-n"]
+# run script to set uid, gid and permissions
+CMD ["/bin/bash", "/root/init.sh"]
