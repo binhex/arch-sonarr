@@ -38,8 +38,8 @@ else
 fi
 
 # set permissions inside container
-chown -R "${UID}":"${GID}" /usr/lib/sonarr /usr/bin/sonarr
-chmod -R 775  /usr/lib/sonarr /usr/bin/sonarr
+chown -R "${UID}":"${GID}" /usr/lib/sonarr /usr/bin/sonarr /home/nobody
+chmod -R 775  /usr/lib/sonarr /usr/bin/sonarr /home/nobody
 
 echo "[info] Starting Supervisor..."
 
