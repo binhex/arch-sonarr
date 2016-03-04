@@ -9,8 +9,8 @@ pacman_packages="libmediainfo mono sqlite"
 # install pre-reqs
 pacman -S --needed $pacman_packages --noconfirm
 
-# call aur packer script
-source /root/packer.sh
+# call aur script
+source /root/aur.sh
 
 # cleanup
 yes|pacman -Scc
