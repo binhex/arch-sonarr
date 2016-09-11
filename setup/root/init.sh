@@ -44,4 +44,4 @@ chmod -R 775  /usr/lib/sonarr /usr/bin/sonarr /home/nobody
 echo "[info] Starting Supervisor..."
 
 # run supervisor
-"/usr/bin/supervisord" -c "/etc/supervisor.conf" -n
+exec /usr/bin/supervisord -c /etc/supervisor.conf -n
