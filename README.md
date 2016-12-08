@@ -8,7 +8,7 @@ Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS fee
 
 **Build notes**
 
-Latest stable Sonarr release from Arch Linux AUR using Packer to compile.
+Latest stable Sonarr release from Arch Linux AUR.
 
 **Usage**
 ```
