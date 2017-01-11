@@ -16,6 +16,7 @@ docker run -d \
     -p 8989:8989 \
     -p 9897:9897 \
     --name=<container name> \
+    -v <path for media files>:/media \
     -v <path for data files>:/data \
     -v <path for config files>:/config \
     -v /etc/localtime:/etc/localtime:ro \
@@ -36,6 +37,7 @@ docker run -d \
     -p 8989:8989 \
     -p 9897:9897 \
     --name=sonarr \
+    -v /media/tv:/media \
     -v /apps/docker/sabnzbd/watched:/data \
     -v /apps/docker/sonarr:/config \
     -v /etc/localtime:/etc/localtime:ro \
