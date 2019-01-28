@@ -30,7 +30,7 @@ fi
 ####
 
 # define aur packages
-aur_packages="sonarr"
+aur_packages="sonarr-phantom"
 
 # call aur install script (arch user repo)
 source /root/aur.sh
