@@ -1,4 +1,4 @@
-FROM binhex/arch-base:latest
+FROM binhex/arch-int-mono:latest
 MAINTAINER binhex
 
 # additional files
