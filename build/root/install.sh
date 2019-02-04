@@ -35,12 +35,6 @@ aur_packages="sonarr"
 # call aur install script (arch user repo)
 source /root/aur.sh
 
-# custom script
-####
-
-# call custom install script (hotfixes)
-source /root/custom.sh
-
 # container perms
 ####
 
