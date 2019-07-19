@@ -87,7 +87,7 @@ EOF
 sed -i '/# PERMISSIONS_PLACEHOLDER/{
     s/# PERMISSIONS_PLACEHOLDER//g
     r /tmp/permissions_heredoc
-}' init.sh
+}' /usr/local/bin/init.sh
 rm /tmp/permissions_heredoc
 
 # env vars
