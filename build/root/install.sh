@@ -35,7 +35,7 @@ fi
 ####
 
 # define pacman packages
-pacman_packages="git libmediainfo sqlite"
+pacman_packages=""
 
 # install compiled packages using pacman
 if [[ ! -z "${pacman_packages}" ]]; then
@@ -46,7 +46,7 @@ fi
 ####
 
 # define aur packages
-aur_packages="sonarr"
+aur_packages="sonarr-phantom"
 
 # call aur install script (arch user repo)
 source aur.sh
