@@ -1,4 +1,4 @@
-FROM binhex/arch-int-mono:latest
+FROM binhex/arch-base:latest
 LABEL org.opencontainers.image.authors="binhex"
 
 # additional files
