@@ -12,7 +12,7 @@ ADD build/*.conf /etc/supervisor/conf.d/
 ADD build/root/*.sh /root/
 
 # get release tag name from build arg
-arg RELEASETAG
+ARG RELEASETAG
 
 # add start bash script
 ADD run/nobody/*.sh /home/nobody/
