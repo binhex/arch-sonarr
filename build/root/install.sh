@@ -40,7 +40,7 @@ refresh.sh
 ####
 
 # define pacman packages
-pacman_packages="mono"
+pacman_packages=""
 
 # install compiled packages using pacman
 if [[ ! -z "${pacman_packages}" ]]; then
@@ -51,7 +51,7 @@ fi
 ####
 
 # define aur packages
-aur_packages="sonarr"
+aur_packages="sonarr-bin"
 
 # call aur install script (arch user repo)
 source aur.sh
