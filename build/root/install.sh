@@ -58,7 +58,7 @@ fi
 aur_packages="sonarr-bin"
 
 # call aur install script (arch user repo)
-source aur.sh
+aur.sh --aur-package "${aur_packages}"
 
 # container perms
 ####
